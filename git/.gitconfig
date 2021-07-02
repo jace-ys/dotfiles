@@ -1,0 +1,19 @@
+[user]
+	name = jace-ys
+	email = jaceys.tan@gmail.com
+[alias]
+	co = checkout
+	cm = commit
+	aa = add --all
+	st = status
+	del = branch -D
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	excludesfile = /Users/jaceys/.gitignore
+[interactive]
+	diffFilter = diff-so-fancy --patch
+[pull]
+	rebase = true
+[fetch]
+	prune = true
