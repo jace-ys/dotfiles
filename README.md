@@ -16,4 +16,9 @@ Run the provided setup script:
 
 ### iTerm2
 
-- Open preferences and import the provided color preset
+- Open preferences and import the provided color presets found in [iterm2](iterm2)
+
+### Powerlevel10k
+
+- Run `p10k configure` to install the recommended font
+

@@ -85,6 +85,7 @@ plugins=(
   golang
   kubectl
   osx
+  terraform
   tmux
   zsh-syntax-highlighting
 )

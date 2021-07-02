@@ -5,7 +5,6 @@ set -x
 
 # git
 ln -sf "$(pwd)/git/.gitconfig" "$HOME/.gitconfig"
-
 ln -sf "$(pwd)/git/.gitignore" "$HOME/.gitignore" \
     && git config --global core.excludesfile "$HOME/.gitignore"
 
@@ -15,6 +14,7 @@ brew install diff-so-fancy \
 
 # vscode
 brew install --cask visual-studio-code
+brew tap homebrew/cask-fonts && brew install --cask font-jetbrains-mono
 ln -sf "$(pwd)/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 
 while read extension; do

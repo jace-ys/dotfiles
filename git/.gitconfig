@@ -2,12 +2,22 @@
 	name = jace-ys
 	email = jaceys.tan@gmail.com
 [alias]
-	co = checkout
-	cm = commit
+	a = add
 	aa = add --all
-	st = status
-	del = branch -D
-	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	ap = add --patch
+	br = branch
+	brd = branch -D
+	c = commit
+	co = checkout
+	cob = checkout -b
+	cp = cherry-pick
+	d = diff
+	l = log --oneline
+	p = push
+	pforce = push --force-with-lease
+	rb = rebase
+	rs = reset
+	s = status
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	excludesfile = /Users/jaceys/.gitignore
